@@ -19,3 +19,5 @@ map <Leader>k <C-W>k
 map <Leader>h <C-W>h
 map <Leader>l <C-W>l
 set t_Co=256
+
+colorscheme zenburn
