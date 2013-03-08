@@ -25,5 +25,8 @@ map <C-l> <C-W>l
 map <C-b> :NERDTreeToggle<CR>
 set t_Co=256
 
+set foldmarker={{{,}}}
+set foldmethod=marker
+
 colorscheme zenburn
 autocmd vimenter * if !argc() | NERDTree | endif
