@@ -28,5 +28,7 @@ set t_Co=256
 set foldmarker={{{,}}}
 set foldmethod=marker
 
-colorscheme zenburn
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 autocmd vimenter * if !argc() | NERDTree | endif
