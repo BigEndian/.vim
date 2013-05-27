@@ -19,9 +19,9 @@ syn match rustLeftRightArrowHead contained ">" conceal cchar= 
 syn match rustLeftRightArrowTail contained "<-" conceal cchar=⟷
 syn match rustNiceOperator "<->" contains=rustLeftRightArrowHead,rustLeftRightArrowTail
 
-syn match rustFatRightArrowHead contained ">" conceal cchar= 
-syn match rustFatRightArrowTail contained "=" conceal cchar=⟹
-syn match rustNiceOperator "=>" contains=rustFatRightArrowHead,rustFatRightArrowTail
+"syn match rustFatRightArrowHead contained ">" conceal cchar= 
+"syn match rustFatRightArrowTail contained "=" conceal cchar=⟹
+"syn match rustNiceOperator "=>" contains=rustFatRightArrowHead,rustFatRightArrowTail
 
 syn match rustNiceOperator /\<\@!_\(_*\>\)\@=/ conceal cchar=′
 
