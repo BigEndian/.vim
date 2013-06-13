@@ -31,4 +31,6 @@ set foldmethod=marker
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+
+set colorcolumn=80,100
 autocmd vimenter * if !argc() | NERDTree | endif
