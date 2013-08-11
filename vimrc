@@ -35,6 +35,8 @@ colorscheme solarized
 set colorcolumn=80,100
 autocmd vimenter * if !argc() | NERDTree | endif
 
+" let g:airline_enable_fugitive=0
+
 let g:airline_theme='dark'
-let g:airline_enable_fugitive=0
+let g:airline_enable_branch=0
 let g:airline_enable_syntastic=0
